@@ -1,0 +1,21 @@
+{
+    "name": "dv05t1/rsvp_ussd_app",
+    "description": "a ussd application for appraisal system",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dv05t1\\RsvpUssdApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "steve wathika"
+        }
+    ],
+    "require": {
+        "africastalking/africastalking": "^6.1"
+    }
+}
